@@ -1,0 +1,17 @@
+def requestform(request):
+    engine = create_engine('postgresql://hind:pratapsingh1234@ec2-34-246-108-106.eu-west-1.compute.amazonaws.com:5432/hinddatabase')
+
+    df_aws = pd.read_sql_query('select * from "Emp_data"', con=engine)
+
+    df = df_aws[['Employee Name', 'Email Id', 'Sub-Department', 'DF Site', '1st Level Reporting', '2nd Level Reporting','Employee Code']]
+
+    team_name = [i for i in df['Sub-Department'].unique()]
+    entry_email = request.user.email
+    admin_email = Adminpage.objects.all()
+    # team_name = Team_name.objects.values_list('team_name', flat=True).distinct()
+    issues = Emp_issue.objects.values_list('issue_category', flat=True).distinct()
+    query_owner = EmployeeEmails.objects.all().distinct()
+    notify_to = EmployeeEmails.objects.all().distinct()
+    ids = [i.query_id for i in Notifyto.objects.filter(notify_toemail__exact=entry_email)]
+    pending_count = len(FormDetails.objects.filter(status__iexact='wip', id__in=ids))
+    return render(request,'audit_Resolve_query/index.html', {'team_name': team_name, 'issues':issues, 'query_owner':query_owner, 'notify_to': notify_to, 'pending_count': pending_count, 'entry_email':entry_email, 'admin_email':admin_email})
