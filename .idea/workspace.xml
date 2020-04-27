@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc20a6cc-fe2b-4d86-99a3-fa20751115e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brainstorm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/brainstorm/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/storm/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm/templates/storm/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/storm/templates/storm/form.html" afterDir="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainstorm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="156" column="35" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="35" />
+            <state relative-caret-position="320">
+              <caret line="157" lean-forward="true" selection-start-line="151" selection-end-line="157" />
             </state>
           </provider>
         </entry>
@@ -41,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storm/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -95,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/storm/templates/storm/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="284">
               <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
             </state>
           </provider>
@@ -126,8 +127,8 @@
         <option value="$PROJECT_DIR$/storm/templates/storm/admin.html" />
         <option value="$PROJECT_DIR$/storm/models.py" />
         <option value="$PROJECT_DIR$/storm/templates/storm/form.html" />
-        <option value="$PROJECT_DIR$/brainstorm/settings.py" />
         <option value="$PROJECT_DIR$/storm/views.py" />
+        <option value="$PROJECT_DIR$/brainstorm/settings.py" />
       </list>
     </option>
   </component>
@@ -182,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$USER_HOME$/audit_query_portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Brainstorm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,6 +212,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -285,27 +287,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storm/templates/storm/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brainstorm/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="156" column="35" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="35" />
+        <state relative-caret-position="320">
+          <caret line="157" lean-forward="true" selection-start-line="151" selection-end-line="157" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/storm/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storm/templates/storm/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
         </state>
       </provider>
     </entry>
